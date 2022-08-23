@@ -1,20 +1,65 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// fuction to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
-`;
+${renderBadge(data.license)}
+## Github URL
+[${data.github}](https://github.com/${data.github})
+## Description
+${data.description}
+## Table of Contents
+* [Installation](#dependencies)
+* [Usage](#usage)
+${renderLink(data.license)}
+* [Contributors](#conrtibutors)
+* [Test](#test)
+## Installations (Dependencies)
+\`\`\`
+${data.dependencies}
+\`\`\`
+## Usage
+${data.usage}
+${renderSection(data.license)}
+## Contributors
+${data.contributors}
+Contact me at ${data.email}
+## Test
+To run test, run these commands:
+\`\`\`
+${data.test}
+\`\`\`
+`
 }
 
-module.exports = generateMarkdown;
+// Function to render badge
+function renderBadge(license) {
+  if (license !== "None") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`
+  }
+  return ``
+}
+
+// Function to render link
+function renderLink(license) {
+  if (license !== "None") {
+    return (
+      `\n* [License](#licende)\n`
+    )
+  }
+return ''
+}
+
+
+// Function to render section
+function renderSection(license) {
+  if (license !== "None") {
+    return (
+      `## License
+      Copyright © ${license}. All rights reserverd.
+      
+      Licensed under the ${license} license.`
+    )
+  }
+  return ''
+}
+
+module.exports = generateMarkdown
