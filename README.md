@@ -8,7 +8,6 @@
 Geanerates README template using Node.js for repositories
 
 ## Usage 
-\`\`\`
 Application hepls generate a README using these questions.
 -Whats your Github username? 
 -What's your email? 
@@ -19,7 +18,7 @@ Application hepls generate a README using these questions.
 -What command should be run to run test? 
 -What does the usage of this repo? 
 -Who are the contributers of this repo? 
-\`\`\`
+
 
 ## Screen shots
 
