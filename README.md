@@ -9,15 +9,15 @@ Geanerates README template using Node.js for repositories
 
 ## Usage 
 Application hepls generate a README using these questions.
--Whats your Github username? 
--What's your email? 
--What's the name of your project? 
--Describe your project: 
--What license does your project have? 
--Any dependencies to install? 
--What command should be run to run test? 
--What does the usage of this repo? 
--Who are the contributers of this repo? 
+- Whats your Github username? 
+- What's your email? 
+- What's the name of your project? 
+- Describe your project: 
+- What license does your project have? 
+- Any dependencies to install? 
+- What command should be run to run test? 
+- What does the usage of this repo? 
+- Who are the contributers of this repo? 
 
 
 ## Screen shots
