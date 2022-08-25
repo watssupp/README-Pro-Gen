@@ -1,9 +1,9 @@
 # README-Pro-Gen
-![GitHub license](https://img.shields.io/badge/license-BSD2-yellowgreen.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 ## Github URL
-[wattsupp](https://github.com/wattsupp)
+[watssupp](https://github.com/watssupp)
 ## Description
-README Template
+README template with Node.js for repos 
 ## Table of Contents
 * [Installation](#dependencies)
 * [Usage](#usage)
@@ -17,14 +17,14 @@ README Template
 npm i
 ```
 ## Usage
-To help creat a README
+To generate README
 ## License
-      Copyright © BSD2. All rights reserverd.
+      Copyright © MIT. All rights reserverd.
       
-      Licensed under the BSD2 license.
+      Licensed under the MIT license.
 ## Contributors
-YouTube Google
-Contact me at jorgesolisruiz@gmail
+Jorge Solis
+Contact me at jorgesolisruiz@gmail.com
 ## Test
 To run test, run these commands:
 ```
